@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kristina Trudorudo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lekton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav style="position: fixed; z-index: +1000;">
+    <div class="nav-wrapper">
+      <a href="#inf" class="title">Kristina Trudorudo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down" style="margin-right: 3rem;">
+        <li class="links"><a href="#inf" style="color:black"> About </a></li>
+        <li class="links"><a href="#projects-block" style="color:black">Portfolio</a></li>
+        <li class="links"><a href="#contact-block" style="color:black">Contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#about-us">About</a></li>
+    <li><a href="#contact-us">Portfolio</a></li>
+    <li><a href="#references">Contacts</a></li>
+
+  </ul>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <br>
+
+        <div class="row center">
+          <h5 class="name" id="typing-name" style="font-family: 'Lekton' , sans-serif;     padding-top: 3rem;"></h5>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/cup-desk-drink-434337.jpg"></div>
+
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img id="img" src="images/UNADJUSTEDNONRAW_thumb_f9.jpg" alt="avatar">
+          </div>
+        </div>
+
+        <div class="col s12 m7" id="inf">
+          <div class="icon-block">
+            <h2 id="about"> About</h2>
+            <p class="text">Full Stack Web Developer with a strong educational background, diverse experience in
+              different fields
+              such as education, communication, marketing and startup developing. Multilingual (Russian as a native
+              speaker, English, Spanish, French). Well-organized as a self-starter as well as in a collaborative
+              environment. Willingness to take on new projects with clarity and innovation.</p>
+
+
+            <a href="ResumeTrudorudo.pdf" value="Download!" target="_blank">
+              <button id="resume">Click me for the resume.</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="text"> Education</h2>
+        <h5 class="text"> Bootcamp Certificate: Rutgers University, Jersey City, USA </h5>
+        <p class="text">A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3,
+          Javascript,
+          JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS. </p>
+        <h5 class="text">Bachelor of Business Administration: ITMO University, St. Petersburg, Russia</h5>
+        <p class="text">Business Management and Administration.</p>
+      </div>
+      <h4 class="text">Languages</h4>
+      <ul>
+        <li class="text">Russian</li>
+        <li class="text">English</li>
+        <li class="text">Spanish</li>
+        <li class="text">French</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax">
+      <img src="images/blur-close-up-contemporary-9046.jpg">
+    </div>
+  </div>
+
+
+  <div class="section white" id="projects-block">
+    <h3 id="projects">Projects.</h3>
+    <br>
+    <div class="container">
+
+      <div class="carousel carousel-slider" id="demo-carousel-auto" data-indicators="true">
+        <a class="carousel-item" href="#one!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;z-index: -1000;" src="images/dorms.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text"> Hudson Dorms Project</h5>
+                <div class="text" style="z-index: -1000;">
+                  <p>The website was created for Steven's Univesity Student's startup. This is a one-page parallax
+                    website
+                    that includes all necessary information, contacts, references and contact form.</p>
+                  <p style="font-weight: bold;"> Technologies Used: HTML, CSS, JS, Materialize</p>
+                  <!-- <p> https://github.com/trudorudo/hudson_dorms</p> -->
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item" href="#two!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;" src="images/diy.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text">DIY for Dummies</h5>
+                <div class="text">
+                  <p>Web Site that helps to find how to learn anything. User can simply search the topic that he wants
+                    to
+                    learn and DIY site collects all recomendation from YouTube, Reddit and even can find help on Yelp.
+                  </p>
+                  <p style="font-weight: bold;">Technologies Used: HTML, CSS, JS, Reddit API, YouTube API, Yelp API,
+                    Bootstrap</p>
+                  <!-- <p> https://github.com/trudorudo/doAnythingPage</p> -->
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item" href="#three!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;" src="images/koodoo.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text">Koodoo_Cat - tech news collector</h5>
+                <div class="text">
+                  <p> Koodoo_Cat is an app that collects new tech articles on one website. This app allows users to find
+                    fresh news, save articles that they liked, leave notes and share with there friends on Facebook,
+                    Instagramm, LinkedIn and send by gmail.</p>
+                  <p style="font-weight: bold;">Technologies Used: Node JS, Express.js, Javascript & jQuery,
+                    Materialize,
+                    shareer.js</p>
+                </div>
+
+                <!-- <a href="https://github.com/trudorudo/koodoo_cat">GitHub Link</a> -->
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item" href="#five!">
+          <div>
+            <div class="row">
+
+              <div class="col s12 m5">
+                <img style="width: 30rem;padding-right: 6rem;" src="images/jakal.png">
+              </div>
+              <div class="col s12 m7">
+                <h5 class="text">In Restaurant App</h5>
+                <p style=" color: black">
+                  Jakal - app for a better experience in the restaurants This app was created in a collaborative
+                  environment with a team of 3 people including myself. The main purpose of our web is to optimize
+                  waiting time in the line and optimize establishment work and to cut unnecessary spends by using our
+                  app. The app allows on the user site simply get the menu on their phone by scanning QR code if the
+                  bar/restaurant and place the order. On the site of the owners of restaurants, the app allows
+                  uploading all information about restaurant and menu items (including such functionality as delete,
+                  update, add new items, menus, and locations)</p>
+                <p style=" color: black">Technologies Used: Materialize, QR Code API - Auto Genration,
+                  Template
+                  Literal Coding Method, MySQL, momentjs, bcryptjs</p>
+
+              </div>
+
+
+              <!-- <a href="https://github.com/trudorudo/restaurant-app">GitHub Link</a> -->
+
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/cup-desk-drink-434337.jpg">
+    </div>
+
+  </div>
+
+  <!-- ------------------------------------------------------- -->
+  <!-- contact form -->
+  <!-- ------------------------------------------------------- -->
+  <div class="container" id="contact-block">
+    <div class="section">
+      <h3 id="intouch">Get In Touch.</h3>
+      <div class="row container">
+        <div class="col s12 m6" id="forms">
+          <div class="jumbotron jumbotron-fluid" id="home">
+            <div class="row">
+              <form class="col s12" style=" padding: 1rem;">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="textarea2">Textarea</label>
+                  </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6" id="contact-form">
+          <div class="jumbotron jumbotron-fluid" id="home">
+            <div class="container" id="contacts">
+              <p class="lead"> <i class="material-icons">edit_location</i> New York, USA</p>
+              <p class="lead"><i class="material-icons">call</i> +1 (908) 494 - 6954</p>
+              <a href="mailto:k.trudorudo@gmail.com"> <img src="images/mailme.png" style="width:12%;">
+                <br> k.trudorudo@gmail.com</a>
+              <br>
+              <a href="https://github.com/trudorudo" target="blank"> <img src="images/github-logo.png"
+                  style="width:12%;">
+                <br> https://github.com/</a>
+              <br>
+              
+              <a href="https://www.linkedin.com/in/kristina-trudorudo-a4761717a/" target="blank"> <img
+                  src="images/linkedin-logo.png" style="width:12%;">
+                <br> https://www.linkedin.com/</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="row">
+      <div class="col s12 m4">
+        <p id="copyright"> Copyright © 2019</p>
+      </div>
+      <div class="col s12 m8">
+        <p id="follow-me">
+          <a href="https://www.linkedin.com/in/kristina-trudorudo-a4761717a/" target="blank"><img class="logo"
+              src="images/linkedin-logo.png"></a>
+          <a href="https://github.com/trudorudo" target="blank"> <img class="logo" src="images/github-logo.png"></a>
+          <a href="mailto:k.trudorudo@gmail.com"> <img src="images/mailme.png" style="width:7%;"></a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="test.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+</body>
+
+</html>
